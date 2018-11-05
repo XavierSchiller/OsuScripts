@@ -25,7 +25,7 @@ for i in NewList:
 DownloadList = []
 for i in lastlist:
     m = i.split("/#")
-    DownloadNewList.append(str(m[0])+'/download')
+    DownloadList.append(str(m[0])+'/download')
 #Download List is containing the Links that can be downloaded.
 
 for i in DownloadList:
